@@ -20,13 +20,13 @@ done
 
 osascript -e 'quit app "RDM"' \
 && rm -rf "${RDM_PATH}/RDM.app" \
-&& rm -f "${HOME}/Library/Preferences/net.alkalay.RDM.plist" \
+&& rm -f "${HOME}/Library/Preferences/usr-sse2.RDM.plist" \
 && echo "
 Uninstall finished!
 
 Your preferences are NOT removed. The system-wide settings backup
 are located in:
-    ${HOME}/Library/Application Support/net.alkalay.RDM/Backups
+    ${HOME}/Library/Application Support/usr-sse2.RDM/Backups
 for just in case. If you don't see the folder, no worries!
 Backups made only when needed, that is, not always.
 "
